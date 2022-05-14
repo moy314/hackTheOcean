@@ -8,13 +8,21 @@ body{
 .fondo-azul{
     background: rgb(0,236,255);
 background: linear-gradient(90deg, rgba(0,236,255,1) 0%, rgba(0,116,255,1) 50%);
-   
-  
-    /* background: rgb(9,9,121);
-background: linear-gradient(90deg, rgba(0,212,255,1)  35%, rgba(9,9,121,1) 100%); */
+clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+border-bottom-left-radius: 2rem;
+border-top-left-radius:40rem;
 
-   
+     
 }
+
+.trapcecio{
+
+    border-top-left-radius: 5rem;
+    clip-path: polygon(31% 0, 100% 0, 100% 100%, 0% 100%);
+
+}
+
+
 
 .fondo-azul-doble{
 
@@ -56,4 +64,60 @@ background: linear-gradient(90deg, rgba(0,212,255,1)  35%, rgba(9,9,121,1) 100%)
 
 .texto-azul{
     color: rgba(0,236,255,1);
+}
+
+
+.cristal{
+
+    background-color: rgba(255, 255, 255,.15);
+    backdrop-filter:blur(20px);
+    border: solid 2px rgba(255,255,255,0.5);
+    border-radius: 1rem;
+}
+
+
+.transparent{
+
+    background-color: transparent;
+}
+
+.transparent:hover{
+
+    
+    /* background: rgb(0,236,255);
+    background: linear-gradient(90deg, rgba(0,236,255,1) 0%, rgba(0,116,255,1) 50%, rgba(0,236,255,1) 100%); */
+}
+
+.contenedor{
+    padding: 1rem;
+    width: 7rem;
+    border-radius: 1rem;
+    background: rgb(0,236,255);
+    background: linear-gradient(90deg, rgba(0,236,255,1) 0%, rgba(0,116,255,1) 50%, rgba(0,236,255,1) 100%);
+    margin-bottom: 1.5rem;
+}
+   
+
+    
+
+/* .contenedor:hover{
+
+    width: 10rem;
+}
+     */
+
+.borde{
+    /* border: solid 2px white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+
+.espacio-barra{
+
+    margin: 5rem 1rem;
+
 }

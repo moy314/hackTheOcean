@@ -34,9 +34,10 @@
 <!-- primera seccion -->
 <div class="container-fluid ">
   <div class="row">
-    <div class="col-6 mt-5">
+    <div class="col-lg mt-5">
+
       <div class="container texto-degrdado">
-        <h1>DESCRUBRE LA MANERA <span >MÁS</span> DIVERTIDA DE CUIDAR LOS MARES</h1>
+        <h1>DESCRUBRE LA MANERA <span class="texto-azul">MÁS</span> DIVERTIDA DE CUIDAR LOS MARES</h1>
       </div>
 
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus necessitatibus sapiente quaerat ratione sequi 
@@ -54,9 +55,11 @@
     </div>
 
 
-    <div class="col fondo-azul">
-
-      <h1>imagen</h1>
+    <div class="col-md">
+      <div class="fondo-azul trapecio">
+        
+        <img src="../assets/img/7.svg" alt="" width="70%">
+      </div>
 
 
     </div>
@@ -78,12 +81,12 @@
 
 <!-- barra de invitacion -->
 
-<div class="container-fluid">
+<div class="container-fluid espacio-barra">
   <div class="row">
-    <div class="col">
-      <div class="container w-50">
+    <div class="col-lg">
+      <div class="container w-100">
 
-        <p class="mt-10 text-center barra-texto">Descrubre el reciclaje de la  <span class="verde"> nueva</span> era tecnologica</p>
+        <p class="mt-10 text-center barra-texto">Descrubre el reciclaje de la  <span class="texto-azul"> nueva</span> era tecnologica</p>
 
       </div>
 
@@ -102,31 +105,22 @@
 <!-- tarjetas secciones -->
 
 
-<div class="card-group m-5">
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+
+
+<div class="cristal">
+<div class="card-group m-5 ">
+  <div class="card transparent borde" *ngFor="let tarjeta of tarjetas">
+    <div class="contenedor">
+      <img [src]="tarjeta.imagen" class="card-img-top" [alt]="tarjeta.alt" >
     </div>
+    <h5 class="card-title">{{ tarjeta.titulo }}</h5>
   </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
+ 
+
+  
+  
+</div>
 </div>
 
 
