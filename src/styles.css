@@ -1,6 +1,7 @@
 body{
     color:white;
-    background-color: rgb(7,12,14)
+    background-color: rgb(7,12,14);
+    font-family: 'Share Tech', sans-serif;
 }
 
 
@@ -37,14 +38,22 @@ background: linear-gradient(90deg, rgba(0,212,255,1)  35%, rgba(9,9,121,1) 100%)
 
 }
 
-.texto-azul{
 
-    color:rgb(0,236,255);
-
-}
 
 .boton-azul{
 
     border-color: rgba(0,236,255,1);
+    color: rgba(0,236,255,1);
+}
+
+
+
+.barra-texto{
+
+    font-size: 3rem;
+
+}
+
+.texto-azul{
     color: rgba(0,236,255,1);
 }
