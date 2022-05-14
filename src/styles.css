@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    color:white;
+    background-color: rgb(7,12,14)
+}
+
+
+.fondo-azul{
+    background: rgb(0,236,255);
+background: linear-gradient(90deg, rgba(0,236,255,1) 0%, rgba(0,116,255,1) 50%);
+   
+  
+    /* background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(0,212,255,1)  35%, rgba(9,9,121,1) 100%); */
+
+   
+}
+
+.fondo-azul-doble{
+
+    background: rgb(0,236,255);
+    background: linear-gradient(90deg, rgba(0,236,255,1) 0%, rgba(0,116,255,1) 50%, rgba(0,236,255,1) 100%);
+    
+}
+
+.texto-degrdado{
+
+    background-image: linear-gradient(90deg, rgba(135,131,131,1) 0%, rgba(255,255,255,1) 42%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+
+
+}
+
+.texto-azul{
+
+    color:rgb(0,236,255);
+
+}
+
+.boton-azul{
+
+    border-color: rgba(0,236,255,1);
+    color: rgba(0,236,255,1);
+}
