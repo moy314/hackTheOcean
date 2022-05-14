@@ -4,16 +4,40 @@ body{
     font-family: 'Share Tech', sans-serif;
 }
 
+.cero{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
 
 .fondo-azul{
     background: rgb(0,236,255);
-background: linear-gradient(90deg, rgba(0,236,255,1) 0%, rgba(0,116,255,1) 50%);
-clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
-border-bottom-left-radius: 2rem;
-border-top-left-radius:40rem;
+    background: linear-gradient(90deg, rgba(0,236,255,1) 0%, rgba(0,116,255,1) 50%);
+    clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius:40rem;
 
      
 }
+
+.fondo-azul-inverso{
+    background: rgb(0,236,255);
+    background: linear-gradient(90deg,rgba(0,116,255,1) 0%,  rgba(0,236,255,1) 50%);
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius:40rem;
+    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    padding: 0rem;
+
+
+
+}
+
+
+
+
 
 .trapcecio{
 
@@ -76,6 +100,20 @@ border-top-left-radius:40rem;
 }
 
 
+.cristal-reducido{
+
+    background-color: rgba(255, 255, 255,.15);
+    backdrop-filter:blur(20px);
+    border: solid 2px rgba(255,255,255,0.5);
+    border-radius: 1rem;
+    /* clip-path: polygon(0 38%, 100% 38%, 100% 100%, 0% 100%); */
+
+}
+
+
+
+
+
 .transparent{
 
     background-color: transparent;
@@ -97,7 +135,18 @@ border-top-left-radius:40rem;
     margin-bottom: 1.5rem;
 }
    
+.imagen{
 
+    margin-top: -5rem;
+
+}
+    
+
+/* .imagen-2{
+
+    margin-left: -5rem;
+
+} */
     
 
 /* .contenedor:hover{

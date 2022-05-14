@@ -5,11 +5,33 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent  {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  tarjetas:any[] = [
+
+    {
+      titulo:"comunidad",
+      alt:"comunidad",
+      imagen:"../assets/img/social.svg"
+      
+    },
+    {
+      titulo:"impacto",
+      alt:"impacto",
+      imagen:"../assets/img/impacto.svg"
+    },
+    {
+      titulo:"beneficios",
+      alt:"beneficios",
+      imagen:"../assets/img/beneficio.svg"
+    }
+
+  ];
+
+
+
+  
 
 }
