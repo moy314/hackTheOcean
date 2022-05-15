@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import { link } from 'fs';
 
 @Component({
   selector: 'app-home',
@@ -12,20 +13,23 @@ export class HomeComponent  {
   tarjetas:any[] = [
 
     {
-      titulo:"comunidad",
-      alt:"comunidad",
-      imagen:"../assets/img/social.svg"
-      
+      titulo:"Recoje",
+      alt:"recoje",
+      imagen:"../assets/img/recoje.svg",
+      link:"['problematica']"
     },
     {
-      titulo:"impacto",
-      alt:"impacto",
-      imagen:"../assets/img/impacto.svg"
+      titulo:"Canjea",
+      alt:"canjea",
+      imagen:"../assets/img/canjea.svg",
+      link:"['general']"
+
     },
     {
-      titulo:"beneficios",
-      alt:"beneficios",
-      imagen:"../assets/img/beneficio.svg"
+      titulo:"Disfruta",
+      alt:"disfruta",
+      imagen:"../assets/img/disfruta.svg",
+      link:"['patrocinadores']"
     }
 
   ];

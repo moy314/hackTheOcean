@@ -10,7 +10,7 @@
           <h1>DESCRUBRE LA MANERA <span class="texto-azul">MÁS</span> DIVERTIDA DE CUIDAR LOS MARES</h1>
         </div>
   
-        <p>
+        <p class="text-justify"> 
           Cada día se producen miles de toneladas de basura en nuestras playas por causa del turismo irresponsable.
           Pero este es el momento de empezar a cambiar, y tú puedes ser parte de esta nueva era 
         </p>
@@ -71,8 +71,155 @@
   <!-- barra de invitacion -->
   
   
+  <!-- PROBELMATICA -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+
+            <div class="container texto-degrdado">
+              <h2 class="mb-5 text-center">¿Qué está pasando con las payas?</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg">
+            
+              <img src="../assets/img/basura1.svg" class="" alt="" width="70%">
+          
+        </div>
+            <div class="col-md">
+                <p class="mt-5 text-justify">
+                  la Universidad Autónoma de Barcelona realizó un estudio internacional sobre la contaminacion de los mares
+                  y encontraron que el turismo es responsable de generar el<span class="texto-azul"> 80%</span> de los desperdicios que se encuentran en
+                  playas y mares
+                </p>
+          </div>
+
+         
+          
+
+
+          </div>
+        </div>
+
+      </div>
+ 
+
+  <!-- PROBELMATICA -->
+
+
+  <!-- CONSECUENCIAS -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+
+        <div class="container texto-degrdado">
+          <h2 class="mb-5 ml-5 text-center">¿Cuáles son las consecuencias?</h2>
+        </div>
+      </div>
+      
+      </div>
+
+      <div class="row">
+        <div class="col-md">
+
+          <p class="text-justify"> Según el investigador Michaël Grelaud esta gran contaminacion está amenazando la salud de los ecosistemas
+              marinos y ello nos conduce a la  <span class="texto-azul">  muerte </span> de diversas especies. Además provoca un impacto 
+               <span class="texto-azul">económico</span>
+              importante a las comunidades que dependen se los servicios ecosistemicos
+        </p>
+
+
+        </div>
+        <div class="col  ">
+          <!-- <p>OTRAS CONSECUENCIAS</p> -->
+          <ul>
+            <li>Acumulacion de plasticos</li>
+            <li>Acidificacion del agua</li>
+            <li>Eutrofización</li>
+            <li>Presencia de microPlasticos</li>
+          </ul>
+        </div>
+
+
+      </div>
+
+
+
+
+      </div>
+
+     
+        
+      
+      
+      
+      <!-- solucion -->
+
+
+
+      <div class="container-fluid mb-5">
+        <div class="row">
+          <div class="col">
+
+            <div class="container texto-degrdado mt-5">
+              <h2 class="mb-5 text-center"> SEA RECOLECTRÓN</h2>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md">
+              <p class="mt-5">
+                Este es un proyecto que busca crear una comunidad activa que se preocupe por la <span class="texto-azul">recoleccion</span>
+                y tratamiento responsable de los residuos.
+                visitar la playa y hacer un cambio es muy sencillo hacer un cambio con <span class="texto-azul">SEA RECOLECTRÓN.</span>
+
+                
+              </p>
+
+              <ul>
+                <li><span class="texto-azul">Recoje </span>  tu basura o recolecta la que encuentres</li>
+                <li>Llevala al centro de <span class="texto-azul">recolección</span> más cercano</li>
+                <li>canjea los puntos obtenidos por alguno de los <span class="texto-azul">millones</span> de productos y servicios disponibles</li>
+                
+              </ul>
+            </div>
+            <div class="col-lg">
+            
+              <img src="../assets/img/basura2.svg" class="" alt="" width="70%">
+          
+        </div>
+
+         
+          
+
+
+          </div>
+        </div>
+
+      </div>
+            
+          
+
+      <!-- solucion -->
+
+    
+
+     
+      
+
+
   
+   
+
+
   
+
+
+
+
+
+
   
   <!-- tarjetas secciones -->
   
@@ -84,14 +231,15 @@
   <div class="card-group m-5 ">
     <div class="card transparent borde" *ngFor="let tarjeta of tarjetas">
       <div class="contenedor">
-        <img [src]="tarjeta.imagen" class="card-img-top" [alt]="tarjeta.alt" >
+       <img [src]="tarjeta.imagen" class="card-img-top" [alt]="tarjeta.alt">
       </div>
       <h5 class="card-title">{{ tarjeta.titulo }}</h5>
+      <!-- <a [routerLink]="tarjeta.link">{{ tarjeta.titulo }}</a> -->
     </div>
    
   
     
-    
+
   </div>
   </div>
   

@@ -206,3 +206,16 @@ body{
     flex-flow: row;
     padding: 2rem;
 }
+
+
+ul{
+
+    list-style-image: url('../src/assets/img/azul.png');
+    /* text-align: center; */
+
+}
+
+.texto-blanco{
+
+    color: white;
+}
