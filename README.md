@@ -25,3 +25,25 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+#IMPLEMENTACION 
+
+Para este proyecto fue utilizado angular versión 13.3.5.
+Para la implementación de los estilos se hizo uso de Bootstrap y además CSS puro. 
+El diseño está basado en el diseño que puede consultarse en el siguiente link: https://dribbble.com/shots/16947259-Veta-Virtual-Reality-Services-Landing-Page-Website
+Además las imágenes principales fueron obtenidas mediante CANVA y editadas segun la paleta de colores seleccionada.
+
+
+
+
+#DESPLIEGUE
+
+para el despliegue se hizo uso de azure web app. en el siguiente link puedes ingresar al sitio desplegado:
+https://searecolectron.azurewebsites.net/#/home
+
+
+
+
+
+
