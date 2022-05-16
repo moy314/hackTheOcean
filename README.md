@@ -27,7 +27,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-##IMPLEMENTACION 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+IMPLEMENTACION 
 
 Para este proyecto fue utilizado angular versión 13.3.5.
 Para la implementación de los estilos se hizo uso de Bootstrap y además CSS puro. 
@@ -37,7 +41,7 @@ Además las imágenes principales fueron obtenidas mediante CANVA y editadas seg
 
 
 
-##DESPLIEGUE
+DESPLIEGUE
 
 para el despliegue se hizo uso de azure web app. en el siguiente link puedes ingresar al sitio desplegado:
 https://searecolectron.azurewebsites.net/#/home
