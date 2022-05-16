@@ -144,6 +144,13 @@ body{
     margin-bottom: 1.5rem;
 }
 
+
+
+.contenedor:hover{
+
+    border: 2px solid white;
+}
+
 .contenedor-blanco{
 
     background-color:white;
