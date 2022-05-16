@@ -78,6 +78,10 @@ body{
     color: rgba(0,236,255,1);
 }
 
+.boton-azul:hover{
+
+    color: white;
+}
 
 
 .barra-texto{

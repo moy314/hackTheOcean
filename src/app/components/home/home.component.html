@@ -16,9 +16,8 @@
         </p>
   
   
-        <!-- <a class="nav-link" [routerLink]="['general']">informacion general</a> -->
 
-        
+        <button class="btn boton-azul mb-5" (click)="gotoProblematica()">Ver más</button>
           
           <p class="texto-azul">más de 10,000 usuarios activos</p>
         
@@ -109,7 +108,7 @@
 
   <!-- CONSECUENCIAS -->
 
-  <div class="container-fluid">
+  <div class="container-fluid" #problematica id="problematica">
     <div class="row">
       <div class="col">
 
@@ -231,10 +230,9 @@
   <div class="card-group m-5 ">
     <div class="card transparent borde" *ngFor="let tarjeta of tarjetas">
       <div class="contenedor">
-       <img [src]="tarjeta.imagen" class="card-img-top" [alt]="tarjeta.alt">
+       <img [src]="tarjeta.imagen" class="card-img-top" [alt]="tarjeta.alt" (click)="rediredt(tarjeta)">
       </div>
       <h5 class="card-title">{{ tarjeta.titulo }}</h5>
-      <!-- <a [routerLink]="tarjeta.link">{{ tarjeta.titulo }}</a> -->
     </div>
    
   
